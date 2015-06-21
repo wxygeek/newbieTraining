@@ -1,0 +1,1 @@
+You can't think about thinking unless you think about thinking about something.
