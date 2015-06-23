@@ -1,5 +1,5 @@
 -- a task
-SELECT t.* from employees t ORDER BY hire_date desc LIMIT 0,1;
+SELECT t.* from employees t ORDER BY hire_date LIMIT 0,1;
 -- b task
 UPDATE salaries SET salary=salary+1 WHERE emp_no in (SELECT t.emp_no from employees t WHERE t.gender='M');
 -- c task
