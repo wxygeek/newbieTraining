@@ -1,3 +1,6 @@
+USE employees   
+
+
 
 SELECT DISTINCT employees.emp_no,employees.birth_date,employees.first_name,employees.last_name,employees.gender,employees.hire_date,titles.title,titles.from_date,titles.to_date,salaries.salary,salaries.from_date,salaries.to_date,departments.dept_name FROM employees INNER JOIN titles ON employees.emp_no = titles.emp_no inner JOIN salaries ON titles.emp_no = salaries.emp_no INNER JOIN dept_manager ON salaries.emp_no = dept_manager.emp_no INNER JOIN departments ON dept_manager.dept_no = departments.dept_no WHERE employees.hire_date = (SELECT min(hire_date) FROM employees);
 
