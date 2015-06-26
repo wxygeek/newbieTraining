@@ -29,6 +29,8 @@
 
 	请于2015年6月28日前完成以上内容。
 
+	扩展学习：http://coolshell.cn/articles/1846.html
+
 3. 学习"语义化版本" && 学习Linux基础命令
 
 	语义化版本：http://semver.org/lang/zh-CN/
@@ -36,7 +38,9 @@
 	Linux常用命令：cd ls grep find cp mv rm ps kill tar cat time wget ...
 
 	扩展学习：
+
 		1. Linux文件权限相关知识（chown chgrp chmod等命令）
+
 		2. 配置自己的一套Linux Shell
 
 4. Task3——学习http协议及编写今日哈工大刷票脚本
