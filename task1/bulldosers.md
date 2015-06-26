@@ -1,0 +1,1 @@
+Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts.
