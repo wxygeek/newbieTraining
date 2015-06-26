@@ -1,4 +1,3 @@
-1、查询工作最长时间的雇员信息:
 use employees;
 
 select * from employees as a,salaries as b,titles as c where a.hire_date=(select max( hire_date) from employees) and a.emp_no=b.emp_no and c.emp_no=a.emp_no;
