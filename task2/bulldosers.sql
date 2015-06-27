@@ -7,7 +7,7 @@ SELECT * FROM employees WHERE hire_date=(SELECT MIN(hire_date) FROM employees);
 UPDATE salaries SET salary=salary+1 WHERE emp_no in (SELECT emp_no FROM employees WHERE gender = 'M');
 
 -- c
-DELETE FROM titles WHERE emp_no IN (SELET emp_no FROM employees WHERE last_name = 'Action');
+DELETE FROM titles WHERE emp_no IN (SELECT emp_no FROM employees WHERE last_name = 'Action');
 
 DELETE FROM dept_emp WHERE emp_no IN (SELECT emp_no FROM employees WHERE last_name = 'Action');
 
