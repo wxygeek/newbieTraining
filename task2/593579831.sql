@@ -1,0 +1,12 @@
+use employees;
+select * from employees left join salaries on employees.emp_no=salaries.emp_no left join titles on salaries.emp_no=titles.emp_no left join dept_manager on titles.emp_no=dept_manager.emp_no left join departments on dept_manager.dept_no=departments.dept_no where employees.hire_date=(select min(employees.hire_date)from employees);
+update salaries set salary=salary+1 where emp_no in (select emp_no from employees where gender='M');
+delete salaries.* from employees,salaries where employees.last_name='Acton' and employees.emp_no=salaries.emp_no;
+delete titles.* from employees,titles where employees.last_name='Acton' and employees.emp_no=titles.emp_no;
+delete dept_manager.* from employees,dept_manager where employees.last_name='Acton' and employees.emp_no=dept_manager.emp_no;
+delete dept_emp.* from employees,dept_emp where employees.last_name='Acton' and employees.emp_no=dept_emp.emp_no;
+delete from employees where last_name='Acton';
+insert into employees values ('10000','1995-12-08','lv','haoyu','M','2015-06-25');
+insert into salaries values ('10000',88888,'2015-06-25','9999-01-01');
+insert into titles values ('10000','Staff','2015-06-25','9999-01-01');
+insert into dept_manager values ('d008','10000','2015-06-25','9999-01-01');
