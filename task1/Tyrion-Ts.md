@@ -1,0 +1,1 @@
+Be like a duck, calm on the surface, but paddling like hell underneath.
