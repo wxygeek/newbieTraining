@@ -36,7 +36,7 @@ def improve(page,j):
                 b = random.randint(0,255)
                 c = random.randint(0,255)
                 d = random.randint(0,255)
-                ipAddress = "%d.%d.%d.%d" % (a,b,c,d)
+                ipAddress = "%d.%d.%d.%d" % (a,b,c,d)#伪造ip地址
                 headers={"X-Forwarded-For":ipAddress,"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0"}
                 conn.request("HEAD",url,"",headers)
                 res = conn.getresponse()
