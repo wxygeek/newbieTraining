@@ -31,18 +31,36 @@
 
 	扩展学习：http://coolshell.cn/articles/1846.html
 
-3. 学习"语义化版本" && 学习Linux基础命令
+3. 学习"语义化版本" && 学习Linux基础命令 && 学习http协议
 
-	语义化版本：http://semver.org/lang/zh-CN/
+	1. 语义化版本：http://semver.org/lang/zh-CN/
 
-	Linux常用命令：cd ls grep find cp mv rm ps kill tar cat time wget ...
+	2. Linux常用命令：cd ls grep find cp mv rm ps kill tar cat time wget ...
 
+	3. 了解浏览器运作原理，学习HTTP协议，学习简单的http请求调试，如何伪造http请求，为写刷票脚本做好准备
+	
 	扩展学习：
 
 		1. Linux文件权限相关知识（chown chgrp chmod等命令）
 
 		2. 配置自己的一套Linux Shell
 
+	很多同学这周面临考试周，课程内容比较紧张。所以这周没有提交任务，大家在忙完考试的剩余时间里，为下周的刷票脚本做做准备就好。刷票脚本的本质就是伪造对方服务器识别的http请求。
+	脚本不限制语言，大家可以用自己熟悉的语言实现。在浏览器调试控制台可以执行的脚本也ok。
+	
+
 4. Task3——学习http协议及编写今日哈工大刷票脚本
+	
+	编写今日哈工大( http://today.hit.edu.cn/ )新闻页面的的刷票脚本，实现每一篇新闻中刷“推荐本文”数量的脚本。
+	
+	1. 任意点击一篇新闻，要求其目前的“推荐本文”数量小于20
+	2. 刷票实现“推荐本文”的数量大于100（不要刷过多）
+	3. 脚本只需更改url链接，即可自动选择页面刷票
+	4. 语言任意
+	5. 请在task3下新建文件夹，包含所需文件，不需要包含库文件
+	
+	请于2015年7月12日前完成以上内容。
+
+5. Task4
 
 	Coming Soon...
