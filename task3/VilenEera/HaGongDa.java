@@ -24,9 +24,9 @@ import java.util.Random;
 public class HaGongDa {
     public static void main(String[] args)  {
         //新闻链接
-        String newURL ="http://today.hit.edu.cn/news/2015/07-08/9461048070RL0.htm";
+        String newURL ="http://today.hit.edu.cn/news/2015/07-09/7491115170RL0.htm";
         //刷票次数
-        int count= 80;
+        int count= 100;
         String iframeURL = "";
         String clickURL = "";
 
@@ -81,7 +81,7 @@ public class HaGongDa {
             int b = r.nextInt(255);
             int c = r.nextInt(255);
             int d = r.nextInt(255);
-            String ip = ""+a+","+b+","+c+","+d;
+            String ip = ""+a+"."+b+"."+c+"."+d;
             System.out.println(ip);
             URL realUrl = new URL(urlNameString);
             //打开连接
