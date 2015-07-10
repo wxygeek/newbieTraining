@@ -1,0 +1,8 @@
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\bin\Release\CSharp_Task3.exe.config
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\bin\Release\CSharp_Task3.exe
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\bin\Release\CSharp_Task3.pdb
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\obj\Release\CSharp_Task3.Form1.resources
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\obj\Release\CSharp_Task3.Properties.Resources.resources
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\obj\Release\CSharp_Task3.csproj.GenerateResource.Cache
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\obj\Release\CSharp_Task3.exe
+G:\作业任务\ACE\CSharp_Task3\CSharp_Task3\obj\Release\CSharp_Task3.pdb
