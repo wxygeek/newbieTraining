@@ -22,7 +22,7 @@ public class AddVote {
 				int ip4 = ran.nextInt(255);
 				String ipAddress = ip1+"."+ip2+"."+ip3+"."+ip4;
 				
-			//	con.setRequestMethod("HEAD");
+			//	con.setRequestMethod("HEAD");  
 				con.setRequestProperty("X-Forwarded-For",ipAddress);
 				
 				/*Map<String,List<String>> headerMap = con.getHeaderFields();  
